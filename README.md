@@ -1,5 +1,7 @@
 <b>‘Beta Inshort’</b>
 
+LIVE - https://pygmoid-walk.000webhostapp.com/inshortt/index.php
+
 An inhouse news website for the users to stay   informed in 60 words and to build new technology for the news industry with the informative 
 and interactive with consumers.  
  
