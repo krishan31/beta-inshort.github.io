@@ -1,0 +1,25 @@
+#php_value upload_max_filesize 500M
+#php_value post_max_size 500M
+#php_value max_execution_time 200
+#php_value max_input_time 200
+
+
+RewriteEngine On
+RewriteBase /
+
+#ErrorDocument 404 /error_page.php
+
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^([^\.]+)/$ $1.php [NC,L]
+
+RewriteRule ^logout app/action/logout.php
+
+
+#RewriteRule ^add/(.*) manage/$1
+#RewriteRule ^edit/(.*) manage/$1
+
+	
+
